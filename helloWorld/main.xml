@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/jap_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="japButton"
+        android:text="@string/jap_button_label" />
+
+    <Button
+        android:id="@+id/eng_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="engButton"
+        android:text="@string/eng_button_label" />
+
+    <Button
+        android:id="@+id/end_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="endButton"
+        android:text="@string/end_button_label" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/end_button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="subButton"
+        android:text="@string/sub_button_label" />
+
+</LinearLayout>
