@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">サーチマンの講習アプリ</string>
+    <string name="hello">Hello SearchMan!</string>
+    <string name="exit_label">アプリの終了</string>
+
+    <string name="jap_button_label">日本語</string>
+    <string name="eng_button_label">English</string>
+    <string name="end_button_label">終了画面へ</string>
+    <string name="jap_message">こんにちは</string>
+    <string name="eng_message">Hello!</string>
+
+    <string name="sub_button_label">次へ</string>
+    <string name="sub_message">new画面</string>
+    <string name="no_message">メッセージがありません</string>
+</resources>
